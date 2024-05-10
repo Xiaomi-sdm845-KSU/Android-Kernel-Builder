@@ -3,7 +3,7 @@ name: "Build KernelSU_v0.9.4"
 on:
   # schedule:
   #   - cron: '0 15 * * *'
-  workflow_dispatch:
+  workflow_dispatch:https://github.com/Xiaomi-sdm845-KSU/Xiaomi_Kernel_OpenSource-sdm845
 
 env:
   OUT_DIR: "${{ github.workspace }}/out"
